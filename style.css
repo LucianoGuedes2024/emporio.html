@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+header h1{
+font-size: 25px;
+}
+
+header i{
+    font-size: 100px;
+    margin-right: 5rem;
+    color:greenyellow;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+
+nav ul li{
+    margin-right: 20px;
+    font-size: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: black;
+    transition: 0.8s;
+}
+
+
+#btn-header button{
+    border-radius: 25px;
+    padding: 15px;
+    background-color: transparent;
+     border: none;
+     font-size: 20px;
+     
+}
+
+#btn-header > button >a {
+    display: flex;
+    align-items: center;
+}
+
+
+
+    
+
+
+
+
+    
+    
