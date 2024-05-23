@@ -6,15 +6,15 @@
 
 header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: gray;
-    padding: 2%;
-    flex-wrap: wrap;
+    padding: 10px;
+    /* flex-wrap: nowrap; */
 }
 
 header h1{
 font-size: 25px;
+/* margin-left: -3rem; */
 }
 
 header i{
@@ -23,13 +23,15 @@ header i{
     color:greenyellow;
 }
 
-nav[
-    d
-]
+nav{
+display: flex;
+}
+    
+
 
 nav ul {
     display: flex;
-    justify-content: end;
+    justify-content: space-evenly;
 }
 
 
