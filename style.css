@@ -9,7 +9,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: gray;
-    padding: 60px;
+    padding: 2%;
     flex-wrap: wrap;
 }
 
@@ -22,6 +22,10 @@ header i{
     margin-right: 5rem;
     color:greenyellow;
 }
+
+nav[
+    d
+]
 
 nav ul {
     display: flex;
@@ -58,6 +62,8 @@ nav ul li a:hover{
 #btn-header > button >a {
     display: flex;
     align-items: center;
+    color: white;
+    text-decoration: none;
 }
 
 
